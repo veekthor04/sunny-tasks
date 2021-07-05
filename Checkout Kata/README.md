@@ -17,6 +17,7 @@ Approach:
      customer.  
 
 -    Step by step:
+     
      The calculate_price function takes arguments cart and 
      pricings.
      
