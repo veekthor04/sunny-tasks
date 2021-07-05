@@ -19,18 +19,26 @@ Approach:
 -    Step by step:
      The calculate_price function takes arguments cart and 
      pricings.
+     
      A variable "total_price" was created as zero.
-     The function gets a set "C" which will 
+     
+     The function gets a set "distinct_items " which will 
      consist of the unique items in the cart so as not to loop 
      more than necessary.
+     
      The function loops through "distinct_items" using a for loop
+     
      The "quantity" extracts the number of occurrence of an item
      in the cart.
+     
      "pricing" uses filter get the item object from the pricings
+     
      The total item price will be gotten by "total quanity modulo 
      the special quantity times the special price plus the reminder
      times unit_price."
+     
      The total_price is incremented by total item price.
+     
      The total_price is returned at the end of the function.
      
 
