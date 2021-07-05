@@ -10,11 +10,16 @@ Approach:
     aircraftSpace: I assumed that A model represent the 
     current state of an aircraft space with a seating capacity 
     of 24 with 3 rows and 8 seats in each row. 
+    
     A seat is available unless the position appears as 
     'unavailable'.
+    
     let aircraftSpace = [
+        
         ['1a','1b','1c','1d','1e','1f','1g','1h'],
+        
         ['2a','2b','2c','2d','2e','2f','2g','2h'],
+        
         ['3a','3b','3c','3d','3e','3f','3g','3h']
     ];
      
@@ -26,39 +31,62 @@ Approach:
     sine the row is even and not odd.
 
 -   Step by step:
+    
     I used a switch statement switch on the number of 
     seat requested.
+    
     for 4,
+    
     the possible seats are:
+    
     '1c','1d','1e','1f',
+    
     '1a','1b','1g','1h'
+    
     '2c','2d','2e','2f'
+    
     '2a','2b','2g','2h'
+    
     '3c','3d','3e','3f'
+    
     '3a','3b','3g','3h'
+    
     I used an if/else statement to check for the first possible
     arrangements provided that none is 'unavailable'
     
     for 3
     the possible seats are:
+    
     '1c','1d','1e',
+    
     '2c','2d','2e',
+    
     '3c','3d','3e',
-     I used an if/else statement to check for the first possible
+    
+    I used an if/else statement to check for the first possible
     arrangements provided that none is 'unavailable'
     
     for 2
+    
     the possible seats are:
+    
     '1a','1b',
+    
     '1g','1h',
+    
     '2a','2b',
+    
     '2g','2h',
+    
     '3a','3b',
+    
     '3g','3h',
-     I used an if/else statement to check for the first possible
+    
+    I used an if/else statement to check for the first possible
     arrangements provided that none is 'unavailable'
     
     for 1, 
+    
     The first available seat from the left to right and row 1
     to row 3
 
