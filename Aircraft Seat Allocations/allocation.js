@@ -129,5 +129,6 @@ function getArrangement(seatRequested, aircraftSpace) {
     return [allocatedSpace, aircraftSpace];
 }
 
+// testing the function getArrangement
 output = getArrangement(1,aircraftSpace);
 console.log(output[0])
